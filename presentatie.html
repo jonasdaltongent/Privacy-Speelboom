@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wat mag je delen? · dia's · De Speelboom</title>
+  <link rel="icon" href="assets/speelboom-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/slides.css">
+  <style>
+    .klok { font-size: 22px; color: #4D5573; }
+    .compact .two { flex: 0 0 auto; }
+    .compact .panel p { margin-bottom: 10px; }
+    .compact .panel p:last-child { margin-bottom: 0; }
+    .steps1 { margin: 0; padding-left: 1.2em; }
+    .steps1 li { font-size: 27px; margin-bottom: 10px; }
+    .steps1 li:last-child { margin-bottom: 0; }
+    .qhead { font-size: 26px; font-weight: 700; margin: 0 0 6px; line-height: 1.3; }
+    .qcol .opt { font-size: 24px; padding: 7px 16px; }
+    .slide[data-answer] .answer { margin-top: 10px; padding: 10px 16px; font-size: 23px; }
+    /* dia 4: het eindproduct (de vijf onderdelen van deel 4) */
+    .dbouw { background: #fff; border: 2px solid #A7B1DE; border-radius: 12px 12px 6px 6px; overflow: hidden; font-family: Arial, Helvetica, sans-serif; box-shadow: 0 8px 24px rgba(29,35,64,.14); }
+    .db-kop { background: #E4E8F6; color: var(--navy-deep); font-weight: 700; font-size: 21px; padding: 7px 18px; }
+    .db-rij { display: grid; grid-template-columns: 340px 1fr; gap: 16px; align-items: center; padding: 11px 18px; border-bottom: 1px dashed #D5DAEE; }
+    .db-rij:last-child { border-bottom: 0; }
+    .db-naam { display: flex; align-items: center; gap: 12px; font-weight: 700; color: var(--navy-deep); font-size: 25px; }
+    .db-naam b { flex: none; width: 40px; height: 40px; border-radius: 50%; background: var(--navy); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 22px; }
+    .db-tekst { font-size: 24px; color: #202124; line-height: 1.25; }
+    /* dia 5: toestemmingstabel */
+    .toest-tab { width: 100%; border-collapse: collapse; background: #fff; font-family: Arial, sans-serif; font-size: 22px; border: 2px solid #A7B1DE; border-radius: 10px; overflow: hidden; margin-bottom: 14px; }
+    .toest-tab th { background: #E4E8F6; color: var(--navy-deep); text-align: left; padding: 8px 14px; border: 1px solid #A7B1DE; font-size: 20px; }
+    .toest-tab td { padding: 8px 14px; border: 1px solid #D5DAEE; }
+    .ja { color: #1F7A55; font-weight: 700; }
+    .nee { color: #A0372A; font-weight: 700; }
+    .rij1 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 12px; }
+    .rij1 .panel { font-size: 23px; padding: 14px 18px; }
+    /* dia 6: discretieplicht */
+    .kanalen { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 10px; }
+    .kanalen .panel { font-size: 24px; line-height: 1.35; }
+    .kanalen .panel b { display: block; font-family: "Montserrat", Arial, sans-serif; font-size: 27px; margin-bottom: 6px; }
+    .kanalen .panel.wel { border-left: 6px solid #1F7A55; }
+    .kanalen .panel.wel b { color: #1F7A55; }
+    .kanalen .panel.niet { border-left: 6px solid #A0372A; }
+    .kanalen .panel.niet b { color: #A0372A; }
+  </style>
+</head>
+<body>
+<div class="hud"><span id="counter"></span> · <kbd>→</kbd> verder · <kbd>F</kbd> volledig scherm · <kbd>N</kbd> notities</div>
+<div class="deck"><div class="stage">
+
+<!-- 1 · vaste startdia -->
+<section class="slide start">
+  <div class="start-kop">
+    <div>
+      <p class="kicker">Toegepaste Informatica · les 5</p>
+      <h1>Wat mag je delen?</h1>
+    </div>
+    <span class="start-zo">Zo start je</span>
+  </div>
+  <ol class="startroute">
+    <li><div class="sr-beeld"><div class="pc-scherm"><span class="pc-avatar"></span><span class="pc-veld">••••••</span></div><div class="pc-voet"></div></div><span class="sr-tekst">Meld je aan op de computer.</span></li>
+    <li><div class="sr-beeld"><span class="url-balk"><img class="logo" src="assets/logos/classroom.svg" alt="">classroom.google.com</span><span class="url-knop">Inloggen</span></div><span class="sr-tekst">Ga in Chrome naar Classroom. Klik op <span class="knop">Inloggen</span>.</span></li>
+    <li><div class="sr-beeld"><span class="login-veld">…<b>@dalton.gent</b></span><span class="login-veld">••••••••</span></div><span class="sr-tekst">Log in met je schoolaccount.</span></li>
+    <li><div class="sr-beeld"><div class="lesgroep"><span class="lesgroep-kop">3MWb - Informatica</span></div></div><span class="sr-tekst">Klik op je lesgroep.</span></li>
+    <li><div class="sr-beeld"><div class="tabs"><span class="tab-grijs"></span><span class="tab-aan">Schoolwerk</span><span class="tab-grijs"></span></div></div><span class="sr-tekst">Klik op <span class="knop">Schoolwerk</span>.</span></li>
+    <li><div class="sr-beeld"><span class="opdr-rij"><span class="opdr-ic"></span>Les 5 — Wat mag je delen?</span><span class="opdr-link">Instructies bekijken</span></div><span class="sr-tekst">Klik op de opdracht › <span class="knop">Instructies bekijken</span>.</span></li>
+    <li><div class="sr-beeld"><span class="bijl-chip aan"><img class="logo" src="assets/logos/lespagina.webp" alt="">Lespagina · Les 5</span></div><span class="sr-tekst">Klik op de lespagina.</span></li>
+    <li class="klaar">Klaar? Laat de lespagina open en kijk naar het bord.</li>
+  </ol>
+  <template class="note">
+    <p><strong>Instructie, 0–1'. De vaste startdia</strong> (elke les dezelfde). Laat ze op het bord staan terwijl de leerlingen aanmelden.</p>
+    <p>Het <strong>wachtwoord van de computers</strong> staat niet op de dia: de dia's staan openbaar online. Zeg het, of schrijf het op het bord.</p>
+    <p>Ga verder zodra de meesten de lespagina open hebben.</p>
+  </template>
+</section>
+
+<!-- 2 · lesstart -->
+<section class="slide met-mascotte" data-answer>
+  <img class="mascotte" src="assets/mascotte/dalton_denken.webp" alt="" width="240" height="240">
+  <p class="kicker">Lesstart · 3 minuten</p>
+  <h2>Weet je het nog?</h2>
+  <div class="qcol">
+    <p class="qhead">Kobe stuurde in de Speelboom-app aan <u>alle</u> ouders van De Eekhoorns:<br><em>“Lina en Daan waren vandaag weer superdruk trouwens.”</em> Waarom hoort die zin daar niet?</p>
+    <div class="opts">
+      <div class="opt"><span class="n">A</span>De zin is te kort voor een ouderbericht</div>
+      <div class="opt right"><span class="n">B</span>Andere ouders hoeven niet te lezen hoe het met Lina en Daan ging</div>
+      <div class="opt"><span class="n">C</span>In de Speelboom-app mag je nooit een voornaam typen</div>
+    </div>
+  </div>
+  <p class="answer">Over één kind praat je alleen met de ouders van dat kind. Vandaag: wat mag je op stage wél en níét delen op foto's, in groepschats en in je stageverslag?</p>
+  <template class="note">
+    <p><strong>Lesstart (3'), ophalen uit les 4.</strong> Geformuleerd zodat ook wie de thuisles van ma 19-10 nog niet maakte meteen mee kan denken. Iedereen antwoordt tegelijk met 1, 2 of 3 vingers voor A, B of C; druk daarna op → voor het antwoord.</p>
+    <p>Wie A of C kiest: <em>"Zouden de ouders van Lina het fijn vinden dat alle twintig gezinnen in de groep dat lezen?"</em></p>
+  </template>
+</section>
+
+<!-- 3 · lesdoel -->
+<section class="slide met-mascotte">
+  <img class="mascotte" src="assets/mascotte/dalton_wijzen_links.webp" alt="" width="240" height="240">
+  <p class="kicker">Ik doe · dia 1 van 4</p>
+  <h2>Wat kan je straks?</h2>
+  <ul class="rules">
+    <li>Je beslist per foto of je ze mag <strong>maken</strong> en waar je ze mag <strong>delen</strong>.</li>
+    <li>Je herkent welke gegevens niet in een <strong>groepschat</strong> horen, en je maakt een <strong>stageverslag</strong> onherkenbaar.</li>
+    <li>Je schrijft <strong>vijf duidelijke afspraken</strong> voor je eigen stage in De Speelboom.</li>
+  </ul>
+  <p class="klok" style="margin-top:8px">Ik leg 5 minuten uit. Daarna werk je in je werkdocument <em>Privacyprotocol</em>.</p>
+  <template class="note"><p><strong>Ik doe, 0'30".</strong> Lesdoel kort voorlezen, niet uitweiden.</p></template>
+</section>
+
+<!-- 4 · het eindproduct -->
+<section class="slide compact">
+  <p class="kicker">Ik doe · dia 2 van 4 · het eindproduct</p>
+  <h2 style="margin-bottom:12px">Dit maak je vandaag: jouw privacyprotocol</h2>
+  <div class="dbouw">
+    <div class="db-kop">Deel 4 — Mijn privacyprotocol voor De Speelboom</div>
+    <div class="db-rij"><span class="db-naam"><b>1</b>Foto's maken</span><span class="db-tekst">met welk toestel, en wat kijk je eerst na?</span></div>
+    <div class="db-rij"><span class="db-naam"><b>2</b>Foto's delen</span><span class="db-tekst">waar mag een foto wel, en waar nooit?</span></div>
+    <div class="db-rij"><span class="db-naam"><b>3</b>Klas-groepschat en thuis</span><span class="db-tekst">wat vertel je wel en niet over je stagedag?</span></div>
+    <div class="db-rij"><span class="db-naam"><b>4</b>Mijn stageverslag</span><span class="db-tekst">hoe schrijf je over een kind zonder dat iemand het herkent?</span></div>
+    <div class="db-rij"><span class="db-naam"><b>5</b>Bij twijfel of vraag</span><span class="db-tekst">wat zeg je aan een ouder over een ander kind, en wie helpt je?</span></div>
+  </div>
+  <template class="note">
+    <p><strong>Ik doe, 1'30". Het eindproduct.</strong> Wijs de vijf onderdelen van deel 4 aan: <em>"Eerst oefen je op foto's (deel 1), gesprekken en groepschats (deel 2) en het anonimiseren van een stageverslag (deel 3). Daarna vat je alles samen in deze vijf afspraken voor je stage."</em></p>
+  </template>
+</section>
+
+<!-- 5 · demo 1: portretrecht en rij a van deel 1 -->
+<section class="slide compact">
+  <p class="kicker">Ik doe · dia 3 van 4 · demo: kijk in de tabel bij Speelboom-app</p>
+  <h2 style="margin-bottom:10px">Portretrecht: toestemming geldt per plek</h2>
+  <table class="toest-tab">
+    <tr><th>Kind in De Eekhoorns</th><th>In de Speelboom-app</th><th>Openbare Facebookpagina</th><th>Stageverslag voor school</th></tr>
+    <tr><td><strong>Nora Peeters</strong> (7 jaar)</td><td class="ja">JA</td><td class="nee">NEE</td><td class="ja">JA</td></tr>
+    <tr><td><strong>Ilyas Benali</strong> (8 jaar)</td><td class="ja">JA</td><td class="ja">JA</td><td class="nee">NEE</td></tr>
+    <tr><td><strong>Finn Jacobs</strong> (6 jaar)</td><td class="nee">NEE</td><td class="nee">NEE</td><td class="nee">NEE</td></tr>
+  </table>
+  <p style="font-size:24px;margin:0 0 8px"><strong>Rij a van deel 1:</strong> Je neemt met de tablet van De Speelboom een foto van <strong>Nora, Ilyas en Finn samen</strong> voor in de Speelboom-app.</p>
+  <div class="rij1">
+    <div class="panel reveal-item"><strong>Mag dit?</strong> <span class="nee">Nee</span></div>
+    <div class="panel reveal-item"><strong>Waarom?</strong> De ouders van Finn gaven geen toestemming voor de Speelboom-app.</div>
+  </div>
+  <template class="note">
+    <p><strong>Ik doe, 2' — hardop denkend.</strong> Leg eerst het principe uit: <em>"Voor een foto heb je toestemming van de ouders nodig om ze te maken én per plek waar je ze deelt. En je fotografeert alleen met de tablet van De Speelboom, nooit met je eigen gsm."</em></p>
+    <p>Lees dan rij a en wijs de kolom <em>In de Speelboom-app</em> aan: <em>"Nora: JA. Ilyas: JA. Finn: NEE. Finn staat mee op de groepsfoto, dus die foto mag niet in de Speelboom-app."</em> Druk twee keer op →. Dit staat al ingevuld in deel 1.</p>
+  </template>
+</section>
+
+<!-- 6 · demo 2: discretieplicht en rij a van deel 2 -->
+<section class="slide compact met-mascotte">
+  <img class="mascotte" src="assets/mascotte/dalton_letop.webp" alt="" width="240" height="240">
+  <p class="kicker">Ik doe · dia 4 van 4 · demo: discretieplicht</p>
+  <h2 style="margin-bottom:10px">Met wie praat je over een kind?</h2>
+  <div class="kanalen" style="max-width:920px">
+    <div class="panel wel"><b>Wel · intern in het team</b>Je mentor Lien en je collega's in De Speelboom, als zij het moeten weten om het kind te begeleiden.</div>
+    <div class="panel niet"><b>Niet · buitenstaanders</b>De WhatsApp-groepschat van je klas, op de bus, thuis aan tafel, of de ouders van een ander kind.</div>
+  </div>
+  <div class="panel reveal-item" style="margin-top:16px;max-width:920px;font-size:23px">
+    <strong>Rij a van deel 2:</strong> Kobe typt in de klas-WhatsApp dat <em>Ilyas Benali om 14 uur zijn Rilatine moest nemen</em> → <span class="nee">Nee</span>: naam en medicatie zijn gevoelige gegevens; die deel je nooit in een groepschat.
+  </div>
+  <template class="note">
+    <p><strong>Ik doe, 1'.</strong> Zet links en rechts naast elkaar: intern met je mentor Lien overleggen hoort bij je werk; daarbuiten geldt je <strong>discretieplicht</strong> (en in een woonzorgcentrum of ziekenhuis zelfs het wettelijke <strong>beroepsgeheim</strong>). Druk op → voor rij a van deel 2.</p>
+  </template>
+</section>
+
+<!-- 7 · controle -->
+<section class="slide" data-answer>
+  <p class="kicker">Controle · iedereen antwoordt</p>
+  <h2>Mag deze foto op jouw TikTok of Instagram?</h2>
+  <div class="qcol">
+    <p class="qhead">De ouders van Nora gaven toestemming voor foto's in de Speelboom-app. Mag jij een leuke foto van Nora op je eigen TikTok of Instagram zetten?</p>
+    <div class="opts">
+      <div class="opt"><span class="n">A</span>Ja, want haar ouders gaven toestemming voor foto's</div>
+      <div class="opt right"><span class="n">B</span>Nee, toestemming geldt per plek en op eigen sociale media zet je nooit iets uit de opvang</div>
+      <div class="opt"><span class="n">C</span>Ja, als je haar gezicht een beetje vaag maakt</div>
+    </div>
+  </div>
+  <p class="answer">Toestemming voor de Speelboom-app telt alleen daar. En op je eigen sociale media komt nooit een foto uit de opvang.</p>
+  <template class="note">
+    <p><strong>Controle (1'). Iedereen antwoordt tegelijk</strong> met 1, 2 of 3 vingers. Wie A of C kiest, neem je na stap 1 even mee bij het begin van stap 2.</p>
+  </template>
+</section>
+
+<!-- 8 · samen stap 1 -->
+<section class="slide">
+  <p class="kicker">Samen · 3 minuten</p>
+  <h2>Iedereen doet stap 1</h2>
+  <div class="panel">
+    <ol class="steps1">
+      <li>Open de lespagina. Klik op <strong>Stap 1 · Klaarzetten</strong>.</li>
+      <li>Open je werkdocument <strong>Privacyprotocol</strong> (rechts bij <em>Jouw werk</em>) en lees het kader bovenaan.</li>
+      <li>Klaar? Steek je <strong>duim</strong> op.</li>
+    </ol>
+  </div>
+  <template class="note">
+    <p><strong>Samen (3').</strong> Loop rond: heeft iedereen de lespagina én de eigen kopie van <em>Privacyprotocol</em> (met de eigen naam in de titel) open in twee tabbladen?</p>
+    <p>Zeg één zin over <em>Toon stapjes</em>: <em>"Wil je per stap een beeld zien van waar je klikt of typt? Klik op Toon stapjes."</em></p>
+  </template>
+</section>
+
+<!-- 9 · zo werk je verder -->
+<section class="slide compact met-mascotte">
+  <img class="mascotte" src="assets/mascotte/dalton_laptop.webp" alt="" width="240" height="240">
+  <p class="kicker">Keuzewerktijd · <span class="eindtijd">40 minuten</span></p>
+  <h2>Zo werk je verder</h2>
+  <div class="two" style="grid-template-columns: 1.6fr 1fr">
+    <div>
+      <ol class="steps1 kloklijst" data-lesmomenten="2026-10-26/15.25/16.15/3MWb/9" data-beltijden="8.25-9.15 9.15-10.05 10.25-11.15 11.15-12.05 12.05-12.55 13.45-14.35 14.35-15.25 15.25-16.15 16.15-17.05">
+        <li data-min="3" data-samen>Klaarzetten <span class="klok tijd">samen &#10003;</span></li>
+        <li data-min="8">Welke foto mag waar? <span class="klok tijd">8'</span></li>
+        <li data-min="7">In de groepschat of aan tafel <span class="klok tijd">7'</span></li>
+        <li data-min="8">Een stageverslag anonimiseren <span class="klok tijd">8'</span></li>
+        <li data-min="8">Jouw privacyprotocol <span class="klok tijd">8'</span></li>
+        <li data-min="6">Nalezen en inleveren <span class="klok tijd">6'</span></li>
+      </ol>
+    </div>
+    <div class="panel navy">
+      <p style="font-size:25px"><strong>Vast?</strong></p>
+      <p style="font-size:26px">1. <em>Toon stapjes</em><br>2. Je buur<br>3. Ik</p>
+      <p style="margin-top:14px;font-size:22px">Vink af in de <strong>checklist</strong>.</p>
+    </div>
+  </div>
+  <p class="klok" style="margin-top:18px;font-size:25px">
+    <strong>Alles staat in de opdracht in <span class="met-logo"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</span></strong> <em>Les 5 — Wat mag je delen?</em>: de lespagina en rechts onder <em>Jouw werk</em> je werkdocument Privacyprotocol.
+    Je levert je <strong>werkdocument</strong> in.<br>Adres: jonasdaltongent.github.io/Privacy-Speelboom/</p>
+  <template class="note">
+    <p><strong>Keuzewerktijd.</strong> Laat deze dia staan zolang ze werken. De kloktijden komen uit de planning; <strong>T</strong> rekent opnieuw vanaf nu.</p>
+    <p>Eerste rondgang: typt iedereen in de lichtblauwe vakken van deel 1 en 2, met een reden uit het kader? Tweede rondgang (rond stap 4 en 5): zijn in het verslag van Kobe ook het adres, de pinda-allergie/ADHD en de naam van de mama weg? En staan in deel 4 vijf concrete afspraken?</p>
+    <p>Wie vraagt hoe hij inlevert: kijk eerst onder de drie vragen van de zelftest in stap 6.</p>
+  </template>
+</section>
+
+<!-- 10 · exitvraag -->
+<section class="slide met-mascotte" data-answer>
+  <img class="mascotte" src="assets/mascotte/dalton_hulp.webp" alt="" width="240" height="240">
+  <p class="kicker">Afsluiten · laatste minuut</p>
+  <h2 style="margin-bottom:10px">Eén vraag voor je vertrekt</h2>
+  <div class="qcol">
+    <p class="qhead">In De Speelboom geldt de <strong>discretieplicht</strong>. Wat geldt er voor wie stage loopt in een woonzorgcentrum of ziekenhuis?</p>
+    <div class="opts">
+      <div class="opt"><span class="n">A</span>Alleen beleefdheid, er is daar geen regel</div>
+      <div class="opt right"><span class="n">B</span>Het wettelijke beroepsgeheim: wie dat schendt, is strafbaar</div>
+      <div class="opt"><span class="n">C</span>Dat je ook met je stagementor niets mag bespreken</div>
+    </div>
+  </div>
+  <p class="answer">In de zorg geldt het wettelijke beroepsgeheim (nog strenger dan discretieplicht). Dezelfde vraag staat in deel 5 van je werkdocument.</p>
+  <p style="margin-top:6px;font-size:25px"><strong>Vertrek je? Log uit, of druk op Windows + L.</strong><br>Volgende les: <strong>Samenwerken aan één stagetaak</strong>.</p>
+  <template class="note">
+    <p><strong>Afsluiting, laatste minuut van de keuzewerktijd.</strong> Laat twee of drie leerlingen antwoorden en druk op → voor het antwoord.</p>
+    <p>Zeg mondeling dat wie niet klaar is, toch inlevert (of thuis afwerkt vóór vrijdag 20.00 uur).</p>
+    <p><strong>Vertrekken:</strong> iedereen logt uit, of drukt op Windows + L.</p>
+  </template>
+</section>
+
+</div></div>
+<div class="notes" id="notes"></div>
+<script src="js/slides.js"></script>
+</body>
+</html>
