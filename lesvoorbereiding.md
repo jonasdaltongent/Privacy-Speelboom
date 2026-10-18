@@ -406,8 +406,9 @@ helemaal klaar is, levert in wat hij heeft of werkt thuis af vóór de deadline.
 - **Route en voortgang**: bewaart actieve stap en aangevinkte taken in `localStorage` met sleutelvoorvoegsel
   `speelboom_privacy_v1_`.
 - **Toon stapjes**: per handeling open en dicht te klappen (`details.stapjes`).
-- **Knop *Kijk na*** in stap 4: toont na het herschrijven van Kobes verslag een voorbeeld van een goed geanonimiseerd
-  verslag met drie controlevragen.
+- **Knop *Kijk na*** in stap 4: toont na het herschrijven van Kobes verslag een controlelijst (sinds 19-10-2026; eerst
+  het geanonimiseerde verslag zelf, maar dat is het antwoord op 3b): staat er nog een naam, een datum die over het
+  kind gaat, een adres, medische gegevens die niet nodig zijn? En staat wat Kobe deed er nog?
 - **Zelftest met slot en codewoord** in stap 6: drie meerkeuzevragen met directe feedback; pas als alle drie juist zijn,
   verschijnt het codewoord **KLUIS** in de groene balk (`.slot[data-codewoord="KLUIS"]`) en klapt *Wat moet je doen?*
   open (`data-na-zelftest="c6z"`).

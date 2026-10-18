@@ -51,7 +51,10 @@ W09 - Les 05 - MW - Wat mag je delen/
   de afspraak van 18-10-2026): de leerling ziet eerst de vette hoofdhandelingen en klikt op *Toon stapjes* waar hij een
   uitsnede uit het werkdocument met een rood kader wil zien.
 - **Stap 4 (*Kijk na*)**: na het herschrijven van het ruwe stageverslag van Kobe kan de leerling met de knop **Kijk na**
-  een geanonimiseerd voorbeeld openen en zijn eigen tekst op drie punten controleren.
+  een controlelijst openen: vier vragen (naam, datum over het kind, adres, medische gegevens) en of wat Kobe deed er
+  nog staat. Tot 19-10-2026 toonde de knop het volledig geanonimiseerde verslag: dat is het antwoord op 3b zelf, en de
+  afspraak van 13-10-2026 zegt bij een schrijftaak nooit het ingevulde antwoord (`_afspraken/lespagina.md`; Jonas,
+  19-10-2026: "Je mag ze alle 3 doen").
 - **Stap 5 (*Een beeld van het resultaat*)**: onder de handelingen staat het skelet van deel 4 (*Ziet het bij jou er zo
   uit?*), zodat de leerling ziet dat alle vijf de vakken met een wél- en níét-afspraak ingevuld moeten zijn zonder dat
   de tekst het antwoord verklapt.
