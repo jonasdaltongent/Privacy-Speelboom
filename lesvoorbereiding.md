@@ -5,7 +5,7 @@ studierichting: "Maatschappij en welzijn (dubbele finaliteit), 2de graad — kla
 lesduur: "1 × 50 minuten: 10 minuten instructie + 40 minuten keuzewerktijd"
 week: "W09 — 2026-2027"
 lokaal: "Lokaal 18 — Windows 11"
-lesdag: "maandag 26 oktober 2026, 9de lesuur (15.25–16.15), rooster van 25-09-2026"
+lesdag: "maandag 9 november 2026, 9de lesuur (15.25–16.15), rooster van 25-09-2026"
 leerplan: "Leerplannen/Leerplannen_2de_graad_TOINFO_MW_dubbele_finaliteit.md"
 jaarplan: "Leerplannen/Lessenplan_TOINFO_MW_dubbele_finaliteit_30u.md — module 1, les 5"
 vakinhoud: "_vakinhoud/privacy-en-portretrecht.md"
@@ -117,13 +117,13 @@ In Google Classroom: de opdracht **Les 5 — Wat mag je delen?** met de link naa
 ## 12. Voorbereiding door de leraar
 
 Zie `README.md` § 2. De opdracht staat als **concept** klaar in `3MWb - Informatica` en is **ingepland** voor
-publicatie op **maandag 26 oktober 2026 om 14.55 uur** (een half uur vóór het 9de lesuur van 15.25 uur, volgens
+publicatie op **maandag 9 november 2026 om 14.55 uur** (een half uur vóór het 9de lesuur van 15.25 uur, volgens
 `_afspraken/publiceren.md`). Zet `presentatie.html` klaar op dia 1 (*Zo start je*) terwijl de leerlingen binnenkomen.
 
 ## 13. Opbouw in Google Classroom
 
 Klas `3MWb - Informatica`, onderwerp *Module 1 — Organiseren en professioneel communiceren*, opdracht
-**Les 5 — Wat mag je delen?**, 20 punten, deadline **vrijdag 30 oktober 2026, 20.00 uur**. Bijlagen: de lespagina
+**Les 5 — Wat mag je delen?**, 20 punten, deadline **vrijdag 13 november 2026, 20.00 uur**. Bijlagen: de lespagina
 (link) en `Privacyprotocol` (een kopie voor elke leerling). Geen AI-hulp (`data-ai-hulp="uit"`, sinds 18-10-2026).
 Instructietekst:
 
@@ -350,7 +350,7 @@ De verbetertool (`_tools/verbeter_opdracht.py`) leest de tabel hieronder rechtst
 ## 24. Indieninstructies
 
 In Google Classroom rechts bij **Jouw werk** klikken op **Inleveren**, en in het venster **Je werk inleveren?** nog eens
-op **Inleveren** klikken, ten laatste **vrijdag 30 oktober 2026 om 20.00 uur**. Het instructiefilmpje
+op **Inleveren** klikken, ten laatste **vrijdag 13 november 2026 om 20.00 uur**. Het instructiefilmpje
 `assets/video/inleveren.mp4` (10 s) staat onder de handelingen van stap 6. Wie aan het einde van het lesuur nog niet
 helemaal klaar is, levert in wat hij heeft of werkt thuis af vóór de deadline.
 

@@ -5,13 +5,13 @@
 **Lesduur:** 1 × 50 minuten: **10 minuten instructie + 40 minuten keuzewerktijd**
 **Context:** De Speelboom, een fictieve buitenschoolse opvang (groep De Eekhoorns, 6 tot 9 jaar)
 **Waar:** lokaal 18 (Windows 11)
-**Lesdag:** maandag 26 oktober 2026, 9de lesuur (15.25–16.15)
+**Lesdag:** maandag 9 november 2026, 9de lesuur (15.25–16.15); verschoven van ma 26-10, want dan krijgt 3MWb een herkansing van les 04 (Jonas, 24-10-2026)
 **Kernleerplandoelen:** `BV2_04.04` (ethische, sociale en legale regels: privacy, AVG, portretrecht) en `BK2_02.07.04` (correct omgaan met privacy van anderen als voorloper op deontologisch handelen)
-**Opdracht in Classroom:** *Les 5 — Wat mag je delen?*, deadline vrijdag 30 oktober 2026, 20.00 uur
+**Opdracht in Classroom:** *Les 5 — Wat mag je delen?*, deadline vrijdag 13 november 2026, 20.00 uur
 
 <!-- Beginvragen (stap 1 van CONTEXT.md), beantwoord door Jonas op 18-10-2026:
      klas 3MWb · les 5 van het lessenplan (Wat mag je delen?) · gewoon in de klas in lokaal 18 op Windows 11
-     op maandag 26 oktober 2026, 9de uur (10–15 min instructie met demo + 35–40 min keuzewerktijd) ·
+     op maandag 9 november 2026, 9de uur (10–15 min instructie met demo + 35–40 min keuzewerktijd) ·
      lesstart: ophalen uit les 4 (bv. waarom je in een groepsbericht geen andere kinderen bij naam noemt), maar zo
      geformuleerd dat ook wie les 4 (de afstandsles van ma 19-10) nog niet maakte meteen kan antwoorden ·
      werkdocument en werkvorm: alles in één werkdocument Privacyprotocol.docx (zonder zip of losse Drive-map):
@@ -75,7 +75,7 @@ map `/ (root)`:
 ### Stap 2 — De opdracht in Classroom, met de koppeling
 
 De opdracht staat als **concept** klaar in [3MWb - Informatica](https://classroom.google.com/c/MjUzNTk0NjYzMTJa) en is
-**ingepland** voor publicatie op **maandag 26 oktober 2026 om 14.55 uur** (een half uur vóór het 9de lesuur van 15.25 uur).
+**ingepland** voor publicatie op **maandag 9 november 2026 om 14.55 uur** (een half uur vóór het 9de lesuur van 15.25 uur).
 
 | | Opdracht: **Les 5 — Wat mag je delen?** |
 |---|---|
@@ -83,7 +83,7 @@ De opdracht staat als **concept** klaar in [3MWb - Informatica](https://classroo
 | **Bijlage 1** | de link naar de lespagina (`Lespagina · Les 5 · Wat mag je delen? · De Speelboom`) |
 | **Bijlage 2** | `Privacyprotocol` (Google-document) — **Een kopie maken voor elke leerling** |
 | **Punten** | 20 |
-| **Deadline** | vrijdag 30 oktober 2026, 20.00 uur |
+| **Deadline** | vrijdag 13 november 2026, 20.00 uur |
 
 ```bash
 python3 "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/_tools/zet_opdracht_klaar.py" "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W09 - Les 05 - MW - Wat mag je delen" --proef
@@ -92,7 +92,7 @@ python3 "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/_tools/zet_op
 ### Afvinklijst vóór de les
 
 - [ ] De lespagina en presentatie staan online (HTTP 200).
-- [ ] De opdracht staat als **concept** klaar in `3MWb - Informatica` en is ingepland voor ma 26-10 om 14.55 uur.
+- [ ] De opdracht staat als **concept** klaar in `3MWb - Informatica` en is ingepland voor ma 9-11 om 14.55 uur.
 - [ ] Zet het wachtwoord van de klascomputers op het bord (staat nooit op de dia).
 - [ ] Open `presentatie.html` op het bord op **dia 1 (*Zo start je*)** terwijl de leerlingen binnenkomen.
 - [ ] Kopieer de Dalton-lesfiche uit `dalton-lesfiche.html` naar je planner.
