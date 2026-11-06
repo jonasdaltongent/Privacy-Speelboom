@@ -37,6 +37,38 @@
     } catch (e) { return fallback; }
   }
 
+  /* ---------- Een nieuwe leerling aan dezelfde computer (Jonas, 06-11-2026) ----------
+   * In lokaal 18 delen de klassen de computers: wie het volgende lesuur dezelfde lespagina opent, zag de vinkjes, de
+   * stap en de open sloten (en dus het codewoord) van de vorige leerling. Daarom onthoudt de pagina in welk lesuur ze
+   * het laatst geopend werd. Is dat op een schooldag een ander lesuur dan nu, dan begint de pagina opnieuw: alles met
+   * PREFIX wordt gewist. Een pauze hoort bij het lesuur erna. Buiten de lesuren (thuis, 's avonds, in het weekend)
+   * wist de pagina niets. Gevolg: wie in een volgend lesuur verder werkt, vinkt opnieuw af; het werkdocument verandert niet. */
+  var BELTIJDEN = [[505, 555], [555, 605], [625, 675], [675, 725], [725, 775], [825, 875], [875, 925], [925, 975], [975, 1025]];   // minuten na middernacht, campus LEF (_afspraken/school-en-klassen.md)
+  function lesuurVan(d) {
+    if (d.getDay() === 0 || d.getDay() === 6) return null;
+    var m = d.getHours() * 60 + d.getMinutes();
+    for (var i = 0; i < BELTIJDEN.length; i++) {
+      if (m < BELTIJDEN[i][1]) return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '/' + i;
+    }
+    return null;
+  }
+  function nieuwLesuur() {
+    var nu = lesuurVan(new Date());
+    if (teacherMode || !nu) return false;
+    var vorig = load('lesuur', null);
+    var nieuw = vorig !== null && vorig !== nu;
+    if (nieuw) {
+      try {
+        Object.keys(localStorage).forEach(function (k) { if (k.indexOf(PREFIX) === 0) localStorage.removeItem(k); });
+      } catch (e) { /* geen opslag */ }
+    }
+    store('lesuur', nu);
+    return nieuw;
+  }
+  nieuwLesuur();
+  // een pagina die Chrome uit zijn geheugen terugzet (terug-knop, hersteld tabblad), laadt opnieuw als het lesuur veranderde
+  window.addEventListener('pageshow', function (e) { if (e.persisted && nieuwLesuur()) window.location.reload(); });
+
   function all(sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
 
   /* ---------- 1. Checklist ---------- */
