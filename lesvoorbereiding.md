@@ -230,7 +230,7 @@ Alles waar de leerling typt, is een lichtblauw vak (`HEX_VAK = F3F5FC`). Geen li
   dat ook goed gerekend, al staat er in de tekst geen foto.)*
 - **Deel 3b (3 punten):**
   Een goed geanonimiseerd verslag (één van vele goede formuleringen):
-  > *Op woensdag 18 november begeleidde ik om 15.00 uur het vieruurtje bij De Eekhoorns (6 tot 9 jaar). Een jongen van
+  > *Op woensdag 21 oktober begeleidde ik om 15.00 uur het vieruurtje bij De Eekhoorns (6 tot 9 jaar). Een jongen van
   > 8 jaar wilde geen appel eten. Ik sprak rustig met hem af dat hij eerst één stukje appel proeft en daarna een
   > rijstwafel krijgt. Dat werkte goed. Toen zijn mama hem om 16.45 uur kwam ophalen, vertelde ik dat het proeven goed
   > gelukt was.*
@@ -251,7 +251,7 @@ Alles waar de leerling typt, is een lichtblauw vak (`HEX_VAK = F3F5FC`). Geen li
   - **5 · Bij twijfel of vraag van een ouder over een ander kind (1,5 pt):** ik geef aan een ouder nooit de naam van een
     ander kind, en bij twijfel deel ik niets en vraag ik het eerst aan mijn mentor Lien (of een vaste begeleider).
 - **Deel 5, slotvraag (1,5 punt):**
-  Nee, dat klopt niet: in de kinderopvang (De Speelboom) geldt de **discretieplicht** (een werkafspraak om geen
+  Nee, dat klopt niet: in de kinderopvang (De Speelboom) geldt de **discretieplicht** (de plicht om geen
   gegevens met buitenstaanders te delen), terwijl in een woonzorgcentrum (zorg/verpleging) het strengere, wettelijke
   **beroepsgeheim** geldt (wie dat schendt, is strafbaar volgens de wet). *1,5 punt* wie benoemt dat in het WZC
   beroepsgeheim geldt (of dat het daar bij wet strafbaar/strenger is); *1 punt* wie alleen zegt dat het in het WZC

@@ -166,7 +166,7 @@ python3 "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/_tools/zet_op
      verhaal over de appel).
   5. *zijn mama Samira* → vervangen door *zijn mama* of *zijn ouder*.
 - **Deel 3b (3 punten — 2 punten voor volledige anonimisering, 1 punt voor behoud van wat Kobe deed):**
-  > *Op woensdag 18 november begeleidde ik om 15.00 uur het vieruurtje bij De Eekhoorns. Een jongen van 8 jaar wilde
+  > *Op woensdag 21 oktober begeleidde ik om 15.00 uur het vieruurtje bij De Eekhoorns. Een jongen van 8 jaar wilde
   > geen appel eten. Ik sprak rustig met hem af dat hij eerst één stukje appel proeft en daarna een rijstwafel krijgt.
   > Dat werkte goed. Toen zijn mama om 16.45 uur kwam, vertelde ik dat het proeven goed gelukt was.*
 - **Deel 4 (5,5 punten: 1 + 1 + 1 + 1 + 1,5):**
@@ -181,7 +181,7 @@ python3 "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/_tools/zet_op
   - **5 · Bij twijfel of vraag van een ouder (1,5 pt):** ik geef aan een ouder nooit de naam van een ander kind, en bij
     twijfel deel ik niets en vraag ik raad aan mijn mentor Lien.
 - **Deel 5, slotvraag (1,5 punt):**
-  Nee: in De Speelboom (kinderopvang) geldt de **discretieplicht** (een werkafspraak om geen informatie met
+  Nee: in De Speelboom (kinderopvang) geldt de **discretieplicht** (de plicht om geen informatie met
   buitenstaanders te delen), maar in een woonzorgcentrum (zorg) geldt het strengere, wettelijke **beroepsgeheim** (wie
   dat schendt, is strafbaar volgens de wet).
 - **Extra (niet verplicht):**
